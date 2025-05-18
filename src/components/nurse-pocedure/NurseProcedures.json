@@ -1,0 +1,97 @@
+[
+  {
+    "tag": "Best Seller",
+    "image": "./images/img1.jpg",
+    "title": "Ryle's Tube Insertion",
+    "description": "Ryle’s tube insertion provides feeding, medication, and drainage via a nasal route.",
+    "price": "₹1,500"
+  },
+  {
+    "tag": "Enquire Now",
+    "image": "./images/img2.jpg",
+    "title": "Wound Dressing",
+    "description": "Wound dressing promotes healing and prevents infection with sterile technique.",
+    "price": "Enquire Now"
+  },
+  {
+    "tag": "Enquire Now",
+    "image": "./images/img3.jpg",
+    "title": "ECG at Home",
+    "description": "Apollo’s nurses play a crucial role in delivering ECG at home services using standard machines and electrodes. Fill the form to get more details.",
+    "price": "Enquire Now"
+  },
+  {
+    "tag": "Most Trusted",
+    "image": "./images/img4.jpg",
+    "title": "IV INJECTION (Cannula already in place)",
+    "description": "IV injection delivers medication directly into the bloodstream via an already inserted cannula.",
+    "price": "₹1,000"
+  },
+  {
+    "tag": "Best Seller","image": "./images/img5.jpg",
+    "title": "General Random Blood Sugar (GRBS)",
+    "description": "GRBS monitors blood glucose levels for effective diabetes management.",
+    "price": "₹1,000"
+  },
+  { 
+    "image": "./images/img6.jpg",
+    "title": "S/C Injection/IM Injection/Vaccination",
+    "description": "Apollo Homecare offers S/C, IM injections, and various vaccinations.",
+    "price": "₹1,200"
+  },
+  { 
+    "image": "./images/img7.jpg",
+    "title": "IV INFUSION (Cannula already in place)",
+    "description": "IV infusion with pre-inserted cannula. (Rs. 1500/hr for extra hours)",
+    "price": "₹1,500"
+  },
+  { 
+    "image": "./images/img8.jpg",
+    "tag": "Most Trusted",
+    "title": "IV Cannula Insertion For Antibiotics",
+    "description": "Antibiotics delivered via cannula for faster, more efficient treatment.",
+    "price": "₹1,500"
+  },
+  { 
+    "image": "./images/img9.jpg",
+    "tag": "Best Seller",
+    "title": "Enema",
+    "description": "Enema procedure for bowel cleansing, constipation relief, or medical prep.",
+    "price": "₹1,500"
+  },
+  { 
+    "image": "./images/img10.jpg",
+    "tag": "Best Seller",
+    "title": "Suture Removal",
+    "description": "Suture removal with expert care, using specialized tools for safety.",
+    "price": "₹2,000"
+  },
+  { 
+    "image": "./images/img11.jpg",
+    "tag": "Best Seller",
+    "title": "Colostomy Bag Change",
+    "description": "At-home colostomy bag change with expert, hygienic care.",
+    "price": "₹2,000"
+  },
+  { 
+    "image": "./images/img12.jpg",
+    "tag": "Best Seller",
+    "title": "Foley Cath Insertion",
+    "description": "Foley catheter insertion ensures proper urinary management with sterile protection.",
+    "price": "₹2,200"
+  },
+  { 
+    "image": "./images/img13.jpg",
+    "tag": "Most Trusted",
+    "title": "ABG Collection",
+    "description": "At-home ABG collection service for convenient, accurate lung function testing.",
+    "price": "Enquire Now"
+  },
+  { 
+    "image": "./images/img14.jpg",
+    "tag": "Book Now",
+    "title": "Chemo-Port Handling at Home",
+    "description": "Expert chemo port care at home for treatments and maintenance.",
+    "price": "Enquire Now"
+  }
+]

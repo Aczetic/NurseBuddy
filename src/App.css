@@ -1,42 +1,99 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  height: 100vh;
+  background-color: #F3F3F3;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.location{
+  display: flex;
+  gap: .2rem;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.location h4 {
+  font-size: 0.8rem;
+  margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-bar {
+  background: linear-gradient(135deg, #3D90D7, #5AA6E7);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: relative;      /* Needed for absolute positioning of bubble */
+  overflow: hidden;        /* Hide overflow from the bubble shape */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Add this */
+.nav-bar::before {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  left: -85px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.15); /* White-transparent circle */
+  border-radius: 50%;
+  /* filter: blur(25px);      Makes it soft and glowing */
+  z-index: 0;
 }
 
-.card {
-  padding: 2em;
+.logo{
+  display: flex;
+  gap: 0.2rem;
 }
 
-.read-the-docs {
-  color: #888;
+.icons{
+  display: flex;
+  gap: 1rem;
+}
+.procedure-card{
+  background-color: #F3F3F3;
+  height: auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 1vw;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s ease;
+
+}
+.procedure-card:hover {
+  transform: scale(1.1);
+}
+
+.procedure-grid {
+ display: flex;
+ gap: 3vw;
+ flex-wrap: wrap;
+}
+.image-wrapper {
+  position: relative;
+  width: 90%;
+  margin-top: 01vw;
+}
+
+.procedure-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5vw;
+  display: block;
+  margin-bottom: 1vw;
+  margin-top: -0.5vw;
+}
+
+.tag {
+  position: absolute;
+  top: -0.5vw;
+  left: 0vw;
+  background-color: #3D90D7;
+  color: white;
+  padding: 0.3vw 0.8vw;
+  font-size: 1vw;
+  font-weight: bold;
+  border-radius: 0.4vw;
+  border-bottom-right-radius: 16vw;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
